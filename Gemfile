@@ -35,3 +35,5 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # 테마 불러오기
 gem "minimal-mistakes-jekyll"
 
+gem "kramdown-parser-gfm"
+
