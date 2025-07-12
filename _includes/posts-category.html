@@ -1,0 +1,17 @@
+{% assign term = include.term %}
+{% assign taxonomy = include.taxonomy | default: 'categories' %}
+
+{% if taxonomy == "category" or taxonomy == "categories" %}
+  {% assign posts = site.posts | where_exp: "post", "post.categories contains term" %}
+{% elsif taxonomy == "tag" or taxonomy == "tags" %}
+  {% assign posts = site.posts | where_exp: "post", "post.tags contains term" %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+<ul>
+  {% for p in posts %}
+    {% include archive-single.html post=p %}
+  {% endfor %}
+</ul>
+
