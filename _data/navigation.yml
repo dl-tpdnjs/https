@@ -6,8 +6,17 @@ main:
   - title: "Archiving Posts"
     url: /archiving/
 
-  - title: "Extracurricular Activities"
-    url: /activities/
+  - title: "Lab Review"
+    url: /review/
 
   - title: "Personal Posts"
     url: /personal/
+
+
+archiving:
+  - title: "ext4"
+    url: /archiving/#ext4
+  - title: "homeserver"
+    url: /archiving/#homeserver
+  - title: "security"
+    url: /archiving/#security
