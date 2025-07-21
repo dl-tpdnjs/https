@@ -27,6 +27,23 @@
   }
 }
 
+
+.main {
+  width: 100% !important;
+  max-width: 1500px !important;
+  margin-left: 320px;
+}
+
+.page, .archive {
+  max-width: 100% !important;
+  padding-right: 15%;
+}
+
+.page__content {
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
 /*
 .nav__list .nav__item a {
   font-weight: 500;
