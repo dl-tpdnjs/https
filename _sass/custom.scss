@@ -1,3 +1,4 @@
+// 이미지 그룹핑
 .img-row {
     display: flex;
     justify-content: center;
@@ -27,7 +28,6 @@
   }
 }
 
-
 .main {
   width: 100% !important;
   max-width: 1500px !important;
@@ -43,21 +43,3 @@
   max-width: 100% !important;
   width: 100% !important;
 }
-
-/*
-.nav__list .nav__item a {
-  font-weight: 500;
-  padding: 0.3rem 0.6rem;
-  border-radius: 6px;
-  transition: background-color 0.2s ease;
-}
-
-.nav__list .nav__item a:hover {
-  background-color: #f0f0f0;
-  color: #007acc !important;
-}
-
-.nav__list .nav__item:has(a[href*="---"]) {
-  border-bottom: 1px solid #ccc;
-  margin: 0.5rem 0;
-} */
