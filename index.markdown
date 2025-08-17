@@ -29,4 +29,16 @@ Hi, I'm Sewon, a student in the AI Engineering department of Sookmyung Women's U
 - Deputy Representative, Class of ’23, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2023 – Dec. 2023)
 
 ## Schedule
-<iframe src="https://calendar.google.com/calendar/embed?src=127sewon%40sookmyung.ac.kr&ctz=Asia%2FSeoul" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<div class="gcal-embed">
+  <!-- 데스크톱 -->
+  <iframe
+    class="gcal gcal--desktop"
+    src="https://calendar.google.com/calendar/embed?src=127sewon%40sookmyung.ac.kr&ctz=Asia%2FSeoul&mode=MONTH&showTitle=0&showTabs=0&showCalendars=0&showPrint=0&wkst=2"
+    loading="lazy" frameborder="0" scrolling="no"></iframe>
+
+  <!-- 모바일 -->
+  <iframe
+    class="gcal gcal--mobile"
+    src="https://calendar.google.com/calendar/embed?src=127sewon%40sookmyung.ac.kr&ctz=Asia%2FSeoul&mode=AGENDA&showTitle=0&showTabs=0&showCalendars=0&showPrint=0&wkst=2"
+    loading="lazy" frameborder="0" scrolling="no"></iframe>
+</div>

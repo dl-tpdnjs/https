@@ -28,18 +28,129 @@
   }
 }
 
+// 이미지 출처
+.img-source {
+  font-family: var(--global-font-family);  
+  font-size: 0.7rem;                      
+  color: #666;                           
+  text-align: center;                   
+  margin-top: 2px;                        
+}
+
+// 구글 캘린더 반응형
+.gcal-embed { width: 100%; }
+.gcal { width: 100%; border: 0; display: block; }
+
+.gcal--desktop { height: 800px; }
+.gcal--mobile  { height: 600px; }
+
+@media (max-width: 768px) {
+  .gcal--desktop { display: none; }
+  .gcal--mobile  { display: block; }
+}
+@media (min-width: 769px) {
+  .gcal--desktop { display: block; }
+  .gcal--mobile  { display: none; }
+}
+
+// 본문 크기 조절
+// 튜닝 노브
+:root {
+  --sidebar-w: 180px;    // 왼쪽 프로필 폭
+  --gap: 12px;           // 사이드바-본문 사이 간격
+  --content-max: 1000px; // 데스크톱 본문 최대 너비
+  --toc-w: 200px;        // 우측 TOC 폭
+  --toc-gap: 12px;       // 본문-TOC 간격
+}
+
+// 큰 화면에서 본문 조금 더 넓게
+@media (min-width: 1400px) {
+  :root { --content-max: 1120px; }
+}
+
+// 컨테이너는 화면 꽉 채우되, 좌우 패딩만
+.wrapper {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-inline: 16px;
+}
+
+// 레이아웃: 좌 프로필 + 우 본문
+.page {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap);
+  padding-right: 0 !important;
+}
+
+// 왼쪽 프로필(사이드바) 고정 폭
+.sidebar,
+.sidebar.sticky {
+  flex: 0 0 var(--sidebar-w);
+  width: var(--sidebar-w);
+}
+
+// 본문은 가변 + 최대 너비 제한
 .main {
-  width: 100% !important;
-  max-width: 1500px !important;
-  margin-left: 310px;
+  flex: 1 1 auto;
+  max-width: var(--content-max);
+  margin: 0;
 }
 
-.page, .archive {
-  max-width: 100% !important;
-  padding-right: 15%;
-}
-
+// 본문 내부
 .page__content {
-  max-width: 100% !important;
-  width: 100% !important;
+  width: 100%;
+  max-width: 100%;
+  padding-right: 10% !important;
 }
+
+// 아카이브/페이지 공통: 우측 패딩 제거
+.page, .archive { padding: 0 2% !important; }
+
+// 우측 TOC 겹침 방지 
+@media (min-width: 1024px) {
+
+  //우측 사이드바 컨테이너 설정
+  .layout--single .sidebar__right {
+    width: var(--toc-w);
+    max-width: var(--toc-w);
+    position: sticky;
+    top: 6rem;                 
+    margin-left: var(--toc-gap);
+    float: right;
+  }
+
+  //TOC 자리 확보 
+  .layout--single .page__content {
+    padding-right: calc(var(--toc-w) + var(--toc-gap));
+  }
+
+  // 중복 여백 방지
+  .layout--single .main {
+    margin-right: 0;
+  }
+}
+
+// 모바일(태블릿 이하): 1열, 중앙 정렬
+@media (max-width: 1024px) {
+  .page { display: block; }
+
+  // 프로필을 모바일에서 숨김
+  // .sidebar, .sidebar.sticky { display: none; }
+
+  // 숨기지 않고 위에 쌓기
+  .sidebar, .sidebar.sticky { width: 100%; flex: 0 0 auto; margin-bottom: 16px; }
+
+  .main {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .wrapper { padding-inline: 12px; }
+
+  // 작은 화면에서는 TOC 숨김 + 본문 여백 제거
+  .toc, .toc__sticky { display: none; }
+  .layout--single .main { margin-right: 0; }
+}
+
+
