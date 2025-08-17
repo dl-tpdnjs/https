@@ -101,11 +101,10 @@
 .page__content {
   width: 100%;
   max-width: 100%;
-  padding-right: 10% !important;
 }
 
 // 아카이브/페이지 공통: 우측 패딩 제거
-.page, .archive { padding: 0 2% !important; }
+.page, .archive { padding: 0 !important; }
 
 // 우측 TOC 겹침 방지 
 @media (min-width: 1024px) {
