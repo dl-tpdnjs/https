@@ -1,5 +1,5 @@
 ---
-title:  "시스템 보안(2) - PLT, GOT, RelRo, ROP"
+title:  "시스템 보안(2) - PLT, GOT, RELRO, ROP"
 categories: 
   - archiving
 tags:
