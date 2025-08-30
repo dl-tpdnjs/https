@@ -168,7 +168,7 @@ whitelist:
 analytics:
   provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : G-C675ZJ5DK0
+    tracking_id          : "G-C675ZJ5DK0"
 
 
 # Archives
