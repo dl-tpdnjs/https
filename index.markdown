@@ -4,11 +4,18 @@
 
 layout: home
 author_profile: true
+paginate: true
 ---
 ## Hello
 Hi, I'm Sewon, a student in the AI Engineering department of Sookmyung Women's University. This is the webpage of my profile. Welcome!
 
 ## Project
+**Research Projects**
+- AI-Driven Digital Forensics: 딥러닝을 활용하여 삭제된 파일의 복구를 최적화하는 하이브리드 복구 기법 연구 (Apr. 2025 – Oct. 2025) — WiSET 한국여성과학기술인육성재단
+- SMWU CARBO-NEUTRAL ESG FUTURE LEADING TALENT CULTIVATION PROGRAM (Mar. 2025 – Dec. 2025) — ICT융합연구소
+- AI 기반 ext4 커널 및 메타데이터 분석을 통한 범용 파일 복구 플랫폼 구현 (Sep. 2025 – Nov. 2025) — SW중심대학(숙명여자대학교) 산학협력프로젝트
+- 파일 복구를 위한 효율적인 하이브리드 복구 기법 연구 (Mar. 2025 – Jun. 2025) — SW중심대학(숙명여자대학교) 산학협력프로젝트
+
 **Toy Project**
 - An online (cyber) course concentration assistance program for people with ADHD - Backend / Team Leader
 - Project '4U' - Backend / Team Leader
@@ -20,9 +27,9 @@ Hi, I'm Sewon, a student in the AI Engineering department of Sookmyung Women's U
 - The 4th IPS Competition - The grand award
 
 **Vita**
-- Undergraduate Research Student, SSS Lab (Dec. 2024 – Present)
-- Member, 3rd Student Council 'MAIN()', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Present)
-- Vice President, Student Council, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Present)
+- Undergraduate Research Student, SSS Lab (Dec. 2024 – Nov. 2025)
+- Member, 3rd Student Council 'MAIN()', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Dec. 2025)
+- Vice President, Student Council, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Dec. 2025)
 - Member, 2nd Student Council 'pAInt IT', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2024 – Dec. 2024)
 - Deputy Representative, Class of ’23, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2024 – Dec. 2024)
 - Member, 1st Student Council 'All In', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2023 – Dec. 2023)
