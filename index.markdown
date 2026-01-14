@@ -24,16 +24,40 @@ Hi, I'm Sewon, a student in the AI Engineering department of Sookmyung Women's U
 
 ## Extracurricular Activities
 **Award**
-- The 4th IPS Competition - The grand award
+- The 4th IPS Competition - **The grand award**
 
 **Vita**
-- Undergraduate Research Student, SSS Lab (Dec. 2024 – Nov. 2025)
-- Member, 3rd Student Council 'MAIN()', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Dec. 2025)
-- Vice President, Student Council, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2025 – Dec. 2025)
-- Member, 2nd Student Council 'pAInt IT', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2024 – Dec. 2024)
-- Deputy Representative, Class of ’23, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2024 – Dec. 2024)
-- Member, 1st Student Council 'All In', Dept. of AI Engineering, Sookmyung Women's University (Mar. 2023 – Dec. 2023)
-- Deputy Representative, Class of ’23, Dept. of AI Engineering, Sookmyung Women's University (Mar. 2023 – Dec. 2023)
+- **Undergraduate Research Student, SSS Lab**  
+  *(Dec. 2024 – Nov. 2025)*
+
+- **Vice President, 5th Uni-DTHON (Seoul Inter-University Hackathon)**  
+  *(Mar. 2025 – Jan. 2026)*  
+- *Organizing Committee Member, 5th Uni-DTHON (Seoul Inter-University Hackathon)*  
+  *(Mar. 2025 – Jan. 2026)*
+
+- **Member, SISS (Sookmyung Information Security Study), 26.5th Cohort**  
+  *(Jan. 2026 – Present)*
+
+- **Vice President, Student Council, Dept. of AI Engineering,  
+  Sookmyung Women’s University**  
+  *(Mar. 2025 – Dec. 2025)*  
+- *Member, 3rd Student Council 'MAIN()', Dept. of AI Engineering,  
+  Sookmyung Women’s University*  
+  *(Mar. 2025 – Dec. 2025)*
+
+- *Deputy Representative, Class of ’23, Dept. of AI Engineering,  
+  Sookmyung Women’s University*  
+  *(Mar. 2024 – Dec. 2024)*  
+- *Member, 2nd Student Council 'pAInt IT', Dept. of AI Engineering,  
+  Sookmyung Women’s University*  
+  *(Mar. 2024 – Dec. 2024)*
+
+- *Deputy Representative, Class of ’23, Dept. of AI Engineering,  
+  Sookmyung Women’s University*  
+  *(Mar. 2023 – Dec. 2023)*  
+- *Member, 1st Student Council 'All In', Dept. of AI Engineering,  
+  Sookmyung Women’s University*  
+  *(Mar. 2023 – Dec. 2023)*
 
 ## Schedule
 <div class="gcal-embed">
