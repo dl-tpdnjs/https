@@ -225,3 +225,16 @@ defaults:
       related: true
       sidebar:
         nav: "categories"
+  - scope:
+      path: ""
+      type: siss
+    values:
+      layout: single
+      toc: true
+      sidebar:
+        nav: "siss"
+
+collections:
+  siss:
+    output: true
+    permalink: /siss/:path/
