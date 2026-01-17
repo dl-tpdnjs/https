@@ -16,7 +16,7 @@ Hi, I'm Sewon, a student in the AI Engineering department of Sookmyung Women's U
 - SMWU CARBO-NEUTRAL ESG FUTURE LEADING TALENT CULTIVATION PROGRAM (Mar. 2025 – Dec. 2025) — ICT융합연구소
   - *제5회 X-CORPS PLUS Festival 장려상 (실전문제연구단 협의회장상)*
 - AI 기반 ext4 커널 및 메타데이터 분석을 통한 범용 파일 복구 플랫폼 구현 (Sep. 2025 – Nov. 2025) — SW중심대학(숙명여자대학교) 산학협력프로젝트
-  - **2025 산학협력프로젝트 성과발표회 최우수상**
+  - *2025 산학협력프로젝트 성과발표회 최우수상*
 - 파일 복구를 위한 효율적인 하이브리드 복구 기법 연구 (Mar. 2025 – Jun. 2025) — SW중심대학(숙명여자대학교) 산학협력프로젝트
 
 **Toy Project**
